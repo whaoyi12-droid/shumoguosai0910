@@ -1,0 +1,101 @@
+{
+  "kind": "synthetic_algebra_and_interface_checks_not_optimization_results",
+  "passed_count": 22,
+  "checks": [
+    {
+      "name": "144_records_cover_24_hours",
+      "passed": true
+    },
+    {
+      "name": "endpoint_labels_match_user_cycle",
+      "passed": true
+    },
+    {
+      "name": "adjacent_records_and_day_boundary",
+      "passed": true
+    },
+    {
+      "name": "six_hour_update_does_not_change_finished_segment",
+      "passed": true
+    },
+    {
+      "name": "power_to_energy_conversion",
+      "passed": true
+    },
+    {
+      "name": "90_percent_each_direction_means_81_percent_round_trip",
+      "passed": true
+    },
+    {
+      "name": "feasible_charge_balance",
+      "passed": true
+    },
+    {
+      "name": "feasible_discharge_and_emergency",
+      "passed": true
+    },
+    {
+      "name": "reject_soc_underflow",
+      "passed": true
+    },
+    {
+      "name": "reject_simultaneous_charge_discharge",
+      "passed": true
+    },
+    {
+      "name": "reject_emergency_charging",
+      "passed": true
+    },
+    {
+      "name": "reject_power_overrun",
+      "passed": true
+    },
+    {
+      "name": "reject_energy_imbalance",
+      "passed": true
+    },
+    {
+      "name": "plan_paid_even_if_unused",
+      "passed": true
+    },
+    {
+      "name": "downward_adjustment_without_refund",
+      "passed": true
+    },
+    {
+      "name": "downward_adjustment_with_refund",
+      "passed": true
+    },
+    {
+      "name": "upward_adjustment_1_5_times",
+      "passed": true
+    },
+    {
+      "name": "emergency_5_times_separate",
+      "passed": true
+    },
+    {
+      "name": "final_revision_not_double_billed",
+      "passed": true
+    },
+    {
+      "name": "downward_adjustment_dominated_with_free_surplus",
+      "passed": true
+    },
+    {
+      "name": "refund_convex_piecewise_formula",
+      "passed": true
+    },
+    {
+      "name": "no_storage_newsvendor_80_percent_quantile",
+      "passed": true
+    }
+  ],
+  "not_verified": [
+    "solver feasibility or optimality",
+    "forecast quality",
+    "causal full-year replay",
+    "actual savings",
+    "generated result workbooks"
+  ]
+}
