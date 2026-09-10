@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# 工具/会话与第三方 skill 目录（非本题代码）
+.skills/
+.sessions/
+.user_skills/
+# 数据附件与产出物（体积大，不入库）
+*.pdf
+*.doc
+*.docx
+outputs/
+*.xlsx
