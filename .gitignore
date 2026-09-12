@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+# 工具/会话与第三方 skill 目录（非本题代码）
+.skills/
+.sessions/
+.user_skills/
+# 论文/临时文档与工作产出目录（不入库）
+*.pdf
+*.doc
+*.docx
+outputs/
+# data/ 原始附件、results/ 结果表需要入库，其余散落 xlsx 忽略
+*.xlsx
+!data/
+!results/
+!data/**
+!results/**
